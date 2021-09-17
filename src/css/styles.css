@@ -1,1 +1,307 @@
+body{
+	background-color:#F5F5F5;
+	overflow: hidden;
+}
 
+.img{
+	position: absolute;
+      top: -100px;
+      left: 400px;
+}
+
+.nav{
+	position:relative;
+	top:0;
+	left:0;
+	font-family: verdana;
+    list-style:none;
+    margin:0;
+    padding:0;
+	padding-left:20px;
+	background: none;
+	background-color: transparent;
+}
+
+.nav li{
+    float:left;
+	background: none;
+}
+
+.nav a{
+    padding:20px;
+	color: #262E42;
+	text-decoration:none;
+	font-size:15px;
+	display:block;
+	text-align: center;
+	background-color: transparent;
+	font-family: Verdana;
+}
+
+img.Nav-logo{
+    height: 45px;
+    overflow: hidden;
+	padding:8px;	
+	margin-left:60px;
+	margin-right:30px;
+}
+
+img.dropbtn{
+    height: 16px;
+    overflow: hidden;
+	padding:18.5px;
+}
+
+img.linkedin-logo
+{
+    height: 17px;
+	float:right;
+    overflow: hidden;
+	padding:18.5px;
+}
+
+img.facebook-logo
+{
+    height: 18px;
+	float:right;
+    overflow: hidden;
+	padding:18.5px;
+}
+
+img.instagram-logo
+{
+    height: 17px;
+	float:right;
+    overflow: hidden;
+	padding:18.5px;
+}
+
+img.message-logo
+{
+    height: 18px;
+	float:right;
+    overflow: hidden;
+	padding:18.5px;
+}
+
+.nav:after{
+	content: "";
+  display: table;
+  clear: both;
+}
+
+.triangle{
+	position: absolute;
+    bottom: 30px;
+    left: 10px;
+	opacity: 0.1;
+	width: 140px;
+}
+
+.pills {
+	border: 3px solid rgba(0,0,0,0.1);
+	border-top-left-radius: 50em;
+	border-bottom-left-radius: 50em;
+	border-top-right-radius: 50em;
+	border-bottom-right-radius: 50em;
+}
+
+.objects{
+	float: right;
+	margin-top: 130px;
+	margin-right: 100px;
+	width: 550px;
+}
+
+.pill1 {
+	height: 18vh;
+	width: 20vh;
+	float: right;
+	margin-right: -85px;
+	margin-top: 20px;
+}
+.pill2 {
+	height: 12vh;
+	width: 25vh;
+	margin-left: 60vh;
+	margin-top: -110px;
+	transform: rotate(-30deg);
+}
+.pill3 {
+	height: 12vh;
+	width: 25vh;
+	bottom: -50px;
+    right: 160px;
+	transform: rotate(30deg);
+	position: absolute;
+}
+
+.circles{
+	width: 30px;
+	height: 100px;
+	top: 300px;
+	right: 0px;
+	position: absolute;
+	margin-top: 20px;
+}
+.circle1{
+	width: 12px;
+    height: 12px;
+	border-radius: 10px;
+    background-color: #262E42;
+	right: 10px;
+}
+
+.circle2{
+    width: 5px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #262E42;
+	margin-left: 4px;
+    margin-top: 15px;
+    opacity: 0.5;
+    }
+}
+
+.column {
+  float: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.column1 {
+  float: center;
+  width: 100%;
+  padding: 10px;
+	
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.heading{
+	position: relative;
+	font-family:Garamond;
+	font-size:3vw;
+	margin-bottom:30px;
+}
+.heading2{
+	position: relative;
+	font-family:Garamond;
+	font-size:6vw;
+}
+.fname{
+	position:relative; 
+	margin-left:8px; 
+	font-family:verdana;
+	width:12vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+.lname{
+	position:relative; 
+	margin-left:1.2vw;
+	font-family:verdana;
+	width:12vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+.phone{
+	position:relative; 
+	margin-left:8px; 
+	font-family:verdana;
+	width:26vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+.age{
+	position:relative; 
+	margin-left:8px;
+	font-family:verdana;
+	width:7vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+.country{
+	position:relative; 
+	margin-left:8px; 
+	font-family:verdana;
+	width:12vw;
+	font-size:1vw;
+	height:2.4vw;
+}
+
+
+.genderdiv{
+	display:inline;
+	position:relative; 
+	margin-left: -90px; 
+	font-family:verdana;
+	width:1.5vw;
+	font-size:1vw;
+}
+
+.email{
+	position:relative; 
+	margin-left:8px; 
+	font-family:verdana;
+	width:26vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+
+
+.user{
+	position:relative; 
+	margin-left:8px; 
+	font-family:verdana;
+	width:26vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+.pass{
+	position:relative; 
+	margin-left:8px; 
+	font-family:verdana;
+	width:26vw;
+	font-size:1vw;
+	height:2vw;
+}
+
+.check {
+            width: 20px;
+            height: 20px;
+        }
+
+.components{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-left:120px;
+	background-color: white;
+	width: 40vw;
+	border-radius: 20px;
+	opacity: 0.8;
+}
+ 
+.button1{
+	position:center; 
+	font-family:verdana; 
+	width:200px; 
+	font-size:1vw; 
+	height:3vw;
+	border-radius: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+}
